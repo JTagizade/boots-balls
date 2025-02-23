@@ -1,0 +1,174 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #383838;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Homoepage */
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstaticg.sportskeeda.com%2Feditor%2F2022%2F10%2Fb69de-16660835650261-1920.jpg&f=1&nofb=1&ipt=7a3b26bf49d685b76643c2284c28d2c36bebe0e5ae4ae52e61d3200cec25eb1c&ipo=images');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  filter: brightness(0.6);
+}
+
+/* Products page */
+.addToCart:before {
+  content: attr(data-text);
+  color: #fff;
+  position: absolute;
+  top: -30px;
+  transition: 0.5s ease all;
+}
+
+.addToCart:hover::before{
+  top: 22px;
+}
+
+.addToCart:hover h2{
+  transform: translateY(180%);
+}
+
+.product-bg-img {
+  background-image: url('/src/assets/imgs/product-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.addToCartAnimation {
+opacity: 0;
+}
+
+.group:hover .addToCartAnimation{
+opacity: 1;
+
+}
+
+
+.addToCartAnimation{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -12px;
+  right: 16px;
+}
+
+
+.addToCartAnimation:before{
+  content: '';
+  display: block;
+  height: 24px;
+  width: 24px;
+  background: #777;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.sendtocart .addToCartAnimation {
+  display: block;
+  animation: xAxis 1.5s forwards cubic-bezier(1.000, 0.440, 0.840, 0.165);
+}
+
+.sendtocart .addToCartAnimation:before {
+  animation: yAxis 1.5s alternate forwards cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+
+
+/* Cart */
+
+.cartProduct-bg-img {
+  background-image: url('/src/assets/imgs/cart-product-bg.jpg');
+  background-position: 10%;
+  /* background-repeat:no-repeat; */
+  background-size: contain;
+}
+
+
+/* Navbar */
+.navbar-shadow {
+  box-shadow: 0px 1px 50px rgb(198, 198, 82);
+}
+
+
+/* Newsletter button */
+
+.slideDown{
+  animation: slideDown 3s forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    bottom: 0;
+  }
+  60% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -28px;
+  }
+}
+
+/* Benefits bar */
+
+.benefits-shadow {
+  box-shadow: 0px 10px 70px #bfe0f6;
+}
+
+/* Category */
+
+.filterBy {
+  position: relative;
+  transition: color 400ms;
+
+}
+
+.filterBy::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 7px;
+  background-color: #e1720f;
+  border-radius: 20px;
+  transition: transform 300ms ease-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.filterBy:hover::before {
+  transform: scaleX(1);
+}

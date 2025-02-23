@@ -1,0 +1,147 @@
+{
+   "data": [
+    {
+        "category": "World Cup Classics",
+        "type": "football",
+        "products": [
+            {
+                "name": "Federale 102",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.balones-oficiales.com%2Fwp-content%2Fuploads%2F2018%2F09%2FFEDERALE.png&f=1&nofb=1&ipt=43630bf0dd3289299255d1b501174035e64264def2eb3b7d3dd6f7b77f50e0c7&ipo=images",
+                "brand": "E.C.A.S",
+                "year": 1934,
+                "cost": 15.99
+            },
+            {
+                "name": "Telstar Durlast",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.idntimes.com%2Fcontent-images%2Fpost%2F20220927%2F1974-telstar-durlast-7ec27af62a41a328f9fb655434026aff.png&f=1&nofb=1&ipt=cd4c8c3b810d329033fcfb937353b84d27343aa65b82fd43eb2b682dbc8d6803&ipo=images",
+                "brand": "Adidas",
+                "year": 1974,
+                "cost": 0.95
+            },
+            {
+                "name": "Tango",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclassicfootballshop.com%2Fimage%2Fcache%2Fcatalog%2Fballs%2Fworld-cup-balls%2Fargentina78-500x500.png&f=1&nofb=1&ipt=3aa371e4b4679881f8e362ed580163f3fbdd6d73ba1f681ed79154841a7e1e62&ipo=images",
+                "brand": "Adidas",
+                "year": 1978,
+                "cost": 2
+            },
+            {
+                "name": "Azteca",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.balones-oficiales.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fazteca.png&f=1&nofb=1&ipt=aa004476e928e89c56764c9462afd51de27f78212a9881c7d651aedf777eab47&ipo=images",
+                "brand": "Adidas",
+                "year": 1986,
+                "cost": 0.01
+            },
+            {
+                "name": "Tricolore",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclassicfootballshop.com%2Fimage%2Fcache%2Fcatalog%2Fballs%2Fworld-cup-balls%2Ffrance98-500x500.png&f=1&nofb=1&ipt=9e22193361ef89d9b643aa5c749e98d85db1bab865b3b9ad443d2d44b262cb7f&ipo=images",
+                "brand": "Adidas",
+                "year": 1998,
+                "cost": 1
+            },
+            {
+                "name": "Fevernova",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3b%2F81%2Ffd%2F3b81fd2f05722403579b17370d23fb97.png&f=1&nofb=1&ipt=1e01ed74f8d201d214a46c12020b0e365f288222cdd3df8f7ca91390a15efb46&ipo=images",
+                "brand": "Adidas",
+                "year": 2002,
+                "cost": 29
+            },
+            {
+                "name": "Teamgeist",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fdd%2F11%2Fd8%2Fdd11d82e3223019ba2982248f063913f.png&f=1&nofb=1&ipt=d8a6dd6e567fd1ee597faf69f20203665208447f7afa99d6c412630fa3d626f3&ipo=images",
+                "brand": "Adidas",
+                "year": 2006,
+                "cost": 29
+            },
+            {
+                "name": "Tricolore",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclassicfootballshop.com%2Fimage%2Fcache%2Fcatalog%2Fballs%2Fworld-cup-balls%2Ffrance98-500x500.png&f=1&nofb=1&ipt=9e22193361ef89d9b643aa5c749e98d85db1bab865b3b9ad443d2d44b262cb7f&ipo=images",
+                "brand": "Adidas",
+                "year": 1998,
+                "cost": 1
+            },
+            {
+                "name": "Fevernova",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3b%2F81%2Ffd%2F3b81fd2f05722403579b17370d23fb97.png&f=1&nofb=1&ipt=1e01ed74f8d201d214a46c12020b0e365f288222cdd3df8f7ca91390a15efb46&ipo=images",
+                "brand": "Adidas",
+                "year": 2002,
+                "cost": 29
+            },
+            {
+                "name": "Teamgeist",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fdd%2F11%2Fd8%2Fdd11d82e3223019ba2982248f063913f.png&f=1&nofb=1&ipt=d8a6dd6e567fd1ee597faf69f20203665208447f7afa99d6c412630fa3d626f3&ipo=images",
+                "brand": "Adidas",
+                "year": 2006,
+                "cost": 29
+            },
+            {
+                "name": "Tricolore",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclassicfootballshop.com%2Fimage%2Fcache%2Fcatalog%2Fballs%2Fworld-cup-balls%2Ffrance98-500x500.png&f=1&nofb=1&ipt=9e22193361ef89d9b643aa5c749e98d85db1bab865b3b9ad443d2d44b262cb7f&ipo=images",
+                "brand": "Adidas",
+                "year": 1998,
+                "cost": 1
+            },
+            {
+                "name": "Fevernova",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3b%2F81%2Ffd%2F3b81fd2f05722403579b17370d23fb97.png&f=1&nofb=1&ipt=1e01ed74f8d201d214a46c12020b0e365f288222cdd3df8f7ca91390a15efb46&ipo=images",
+                "brand": "Adidas",
+                "year": 2002,
+                "cost": 29
+            },
+            {
+                "name": "Teamgeist",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fdd%2F11%2Fd8%2Fdd11d82e3223019ba2982248f063913f.png&f=1&nofb=1&ipt=d8a6dd6e567fd1ee597faf69f20203665208447f7afa99d6c412630fa3d626f3&ipo=images",
+                "brand": "Adidas",
+                "year": 2006,
+                "cost": 29
+            }
+        ]
+    },
+    {
+        "category": "Euro Classics",
+        "type": "football",
+        "products": [
+            {
+                "name": "Roteiro",
+                "localImg": "Roteiro",  
+                "brand": "Adidas",
+                "year": 2004,
+                "cost": 49
+            }
+        ]
+    },
+    {
+        "category": "Classic Football Boots",
+        "type": "boots",
+        "products": [
+            {
+                "name": "Predator",
+                "localImg": "${PredatorBlue}",  
+                "brand": "Adidas",
+                "year": 2005,
+                "cost": 99
+            },
+            {
+                "name": "Predator-red",
+                "localImg": "${PredatorRed}", 
+                "brand": "Adidas",
+                "year": 2006,
+                "cost": 99
+            }
+        ]
+    },
+    {
+        "category": "Champions League Classics",
+        "type": "football",
+        "products": [
+            {
+                "name": "CL ball",
+                "imageUrl": "${PredatorBlue}",  
+                "brand": "Adidas",
+                "year": 2010,
+                "cost": 99
+            }
+        ]
+    }
+]
+}
