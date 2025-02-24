@@ -52,48 +52,6 @@
                 "brand": "Adidas",
                 "year": 2006,
                 "cost": 29
-            },
-            {
-                "name": "Tricolore",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclassicfootballshop.com%2Fimage%2Fcache%2Fcatalog%2Fballs%2Fworld-cup-balls%2Ffrance98-500x500.png&f=1&nofb=1&ipt=9e22193361ef89d9b643aa5c749e98d85db1bab865b3b9ad443d2d44b262cb7f&ipo=images",
-                "brand": "Adidas",
-                "year": 1998,
-                "cost": 1
-            },
-            {
-                "name": "Fevernova",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3b%2F81%2Ffd%2F3b81fd2f05722403579b17370d23fb97.png&f=1&nofb=1&ipt=1e01ed74f8d201d214a46c12020b0e365f288222cdd3df8f7ca91390a15efb46&ipo=images",
-                "brand": "Adidas",
-                "year": 2002,
-                "cost": 29
-            },
-            {
-                "name": "Teamgeist",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fdd%2F11%2Fd8%2Fdd11d82e3223019ba2982248f063913f.png&f=1&nofb=1&ipt=d8a6dd6e567fd1ee597faf69f20203665208447f7afa99d6c412630fa3d626f3&ipo=images",
-                "brand": "Adidas",
-                "year": 2006,
-                "cost": 29
-            },
-            {
-                "name": "Tricolore",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclassicfootballshop.com%2Fimage%2Fcache%2Fcatalog%2Fballs%2Fworld-cup-balls%2Ffrance98-500x500.png&f=1&nofb=1&ipt=9e22193361ef89d9b643aa5c749e98d85db1bab865b3b9ad443d2d44b262cb7f&ipo=images",
-                "brand": "Adidas",
-                "year": 1998,
-                "cost": 1
-            },
-            {
-                "name": "Fevernova",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3b%2F81%2Ffd%2F3b81fd2f05722403579b17370d23fb97.png&f=1&nofb=1&ipt=1e01ed74f8d201d214a46c12020b0e365f288222cdd3df8f7ca91390a15efb46&ipo=images",
-                "brand": "Adidas",
-                "year": 2002,
-                "cost": 29
-            },
-            {
-                "name": "Teamgeist",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fdd%2F11%2Fd8%2Fdd11d82e3223019ba2982248f063913f.png&f=1&nofb=1&ipt=d8a6dd6e567fd1ee597faf69f20203665208447f7afa99d6c412630fa3d626f3&ipo=images",
-                "brand": "Adidas",
-                "year": 2006,
-                "cost": 29
             }
         ]
     },
@@ -102,11 +60,25 @@
         "type": "football",
         "products": [
             {
+                "name": "Terrestra",
+                "image": "",  
+                "brand": "Adidas",
+                "year": 2000,
+                "cost": 55
+            },
+            {
                 "name": "Roteiro",
-                "localImg": "Roteiro",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/roteiro.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2004,
                 "cost": 49
+            },
+            {
+                "name": "Fussballliebe",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontents.mediadecathlon.com%2Fp2658895%2Fk%24e91b1ec09801efc6d02908a63a050602%2F642pt667%2F1224xcr1113%2Fdefault.png%3Fformat%3Dauto&f=1&nofb=1&ipt=853dbd2417fb0d5141b78a8d7267b54578632335f33df8bfe78c0cc00f20d490&ipo=images",  
+                "brand": "Adidas",
+                "year": 2024,
+                "cost": 50
             }
         ]
     },
@@ -115,15 +87,29 @@
         "type": "boots",
         "products": [
             {
+                "name": "Puma King",
+                "image": "",  
+                "brand": "Puma",
+                "year": 1968,
+                "cost": 199
+            },
+            {
+                "name": "Total 90",
+                "image": "",  
+                "brand": "Nike",
+                "year": 200,
+                "cost": 109
+            },
+            {
                 "name": "Predator",
-                "localImg": "${PredatorBlue}",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/predator-blue.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2005,
                 "cost": 99
             },
             {
                 "name": "Predator-red",
-                "localImg": "${PredatorRed}", 
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/predator1.png?raw=true", 
                 "brand": "Adidas",
                 "year": 2006,
                 "cost": 99
@@ -135,13 +121,68 @@
         "type": "football",
         "products": [
             {
-                "name": "CL ball",
-                "imageUrl": "${PredatorBlue}",  
+                "name": "Group Stage",
+                "image": "",  
                 "brand": "Adidas",
-                "year": 2010,
-                "cost": 99
+                "year": 2018,
+                "cost": 49
+            },
+            {
+                "name": "Finale 3",
+                "image": "",  
+                "brand": "Adidas",
+                "year": 2003,
+                "cost": 29
+            },
+            {
+                "name": "Finale Madrid",
+                "image": "",  
+                "brand": "Adidas",
+                "year": 2019,
+                "cost": 59
+            },
+            {
+                "name": "Finale Istanbul",
+                "image": "",  
+                "brand": "Adidas",
+                "year": 2023,
+                "cost": 59
+            }
+        ]
+    },
+    {
+        "category": "Miscellaneous",
+        "type": "football",
+        "products": [
+            {
+                "name": "Geo Merlin",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.nike.com%2Fa%2Fimages%2Ft_default%2Ff8ef7140-7111-4676-8cea-56626847a41f%2FPL%2BNK%2BHERITAGE%2BGEO%2BMERLIN-SP25.png&f=1&nofb=1&ipt=8a778db36180906f4cea1d0e68f54a4dfd002c75071c451d6758651419a30b94&ipo=images",  
+                "brand": "Nike",
+                "year": 2000,
+                "cost": 39
+            },
+            {
+                "name": "T90 Aerow 1",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.premierleague.com%2Fresources%2Fprod%2Fv6.116.2-5185%2Fi%2Fnike-ball-hub%2Fballs%2F5-alt.png&f=1&nofb=1&ipt=0197930870dfbcdbe5908df86c16f1c443569e74d70cb00aaad49c263b17ec48&ipo=images",  
+                "brand": "Nike",
+                "year": 2005,
+                "cost": 39
+            },
+            {
+                "name": "T90 Aerow 2",
+                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.premierleague.com%2Fresources%2Fprod%2Fv6.116.2-5185%2Fi%2Fnike-ball-hub%2Fballs%2F5-alt.png&f=1&nofb=1&ipt=0197930870dfbcdbe5908df86c16f1c443569e74d70cb00aaad49c263b17ec48&ipo=images",  
+                "brand": "Nike",
+                "year": 2005,
+                "cost": 49
+            },
+            {
+                "name": "Hi-Vis",
+                "image": "",  
+                "brand": "Puma",
+                "year": 2025,
+                "cost": 49
             }
         ]
     }
-]
+ ]
 }

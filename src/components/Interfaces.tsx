@@ -4,9 +4,17 @@ export interface CartState {
     items: Product[];
 }
 
+// export interface ProductsState {
+//     products: ProductData; 
+// }
+
 export interface ProductsState {
-    products: ProductData; 
+    products: ProductData[],
+    categories: string[],
+    selectedCategories: string [],
+    chosenTypes: string[],
 }
+
 
 export interface Product {
     name: string,

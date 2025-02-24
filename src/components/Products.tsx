@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 // Redux Hooks
 import { useSelector, useDispatch } from 'react-redux';
 // Interfaces
-import { ProductData, Product, ProductsState } from './Interfaces';
+import { ProductData, Product } from './Interfaces';
 // Smart Components 
 import Navbar from './Navbar';
 // Dumb Components 
@@ -18,22 +18,24 @@ import NewsletterPopUp from './NewsletterPopUp';
 import { getSessionsList } from './Slices/ProductsSlice';
 import { addItem } from './Slices/CartSlice';
 import { setCategories, setTypes } from './Slices/CategoriesSlice';
+// Store
+import { RootState, AppDispatch } from '../store';
 
 
 
 
 function Products() {  
     
-    const dispatch = useDispatch();
+    const dispatch: AppDispatch = useDispatch();
 
-    const data: ProductData[] = useSelector((state:ProductsState) => state.products.products);
+    const data: ProductData[] = useSelector((state:RootState) => state.products.products);
     const productsData = data.flatMap(item => item.products);
 
-    const selectedCategoryList = useSelector((state:ProductsState) => state.categories.selectedCategories);
-    const chosenType = useSelector((state:ProductsState) => state.categories.chosenTypes);
+    const selectedCategoryList = useSelector((state: RootState) => state.categories.selectedCategories);
+    const chosenType = useSelector((state:RootState) => state.categories.chosenTypes);
 
 
-    const filteredData = data.filter(product => {
+    const filteredData: ProductData[] = data.filter((product: ProductData) => {
         const isCategoryMatch = selectedCategoryList.includes(product.category)
         const isTypeMatch = chosenType.includes(product.type)
 
@@ -41,7 +43,7 @@ function Products() {
     }        
     );
 
-    const filteredProductsData = filteredData.flatMap(item => item.products);    
+    const filteredProductsData: Product[] = filteredData.flatMap(item => item.products);    
     
     const uniqueCategories = [...new Set(data.map((item: ProductData)  => item.category))];
     const uniqueTypes = [...new Set(data.map((item: ProductData)  => item.type))];
@@ -51,7 +53,7 @@ function Products() {
 
 const eventsPerPage = 9; 
 const [currentPage, setCurrentPage] = useState<number>(1);
-const [currentPageItems, setCurrentPageItems] = useState([]);
+const [currentPageItems, setCurrentPageItems] = useState<Product[]>([]);
 
 const isFilteringActive = selectedCategoryList.length > 0 || chosenType.length > 0;
 const currentData = isFilteringActive ? filteredProductsData : productsData;
@@ -96,10 +98,10 @@ const sortProducts = () => {
             sortedItems.sort((a, b) => b.cost - a.cost);
             break;
         case 'Old to New':
-            sortedItems.sort((a, b) => a.year - b.year);
+            sortedItems.sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
             break;
         case 'New to Old':
-            sortedItems.sort((a, b) => b.year - a.year);
+            sortedItems.sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
             break;
         default:
             break;
@@ -143,7 +145,7 @@ const handleAddToCart = (product: Product) => {
         const startIndex = (currentPage - 1) * eventsPerPage;
         const endIndex = startIndex + eventsPerPage;
         setCurrentPageItems(sortedProducts.slice(startIndex, endIndex));
-    }, [sortedProducts, currentPage]); 
+    }, [sortedProducts]); 
 
     useEffect(() => {
         if (originalProductsRef.current.length === 0) {
