@@ -2,7 +2,6 @@
 import { useSelector } from 'react-redux';
 // Interfaces
 import type { Product, CartState } from './Interfaces';
-// Images
 
 
 
@@ -34,7 +33,6 @@ const SingleProduct: React.FC<SingleProductProps> = ({ productInfo, addToCart })
 
   return (
     <div className="w-[300px] h-[400px] rounded-2xl bg-blue-500 relative group product-bg-img">
-        {/* <div ref={animatedElementRef} className='addToCartAnimation'></div>  */}
         <div className="h-[80%] px-5 pb-3 flex flex-col relative transform-style-preserve-3d">
             <span className="text-3xl leading-20 italic opacity-25 montserrat group-hover:opacity-100 transition-all duration-800">{productInfo.name}</span>
             <span className="text-2xl leading-10 mt-16 opacity-80 italic montserrat">{productInfo.year}</span>
@@ -44,12 +42,12 @@ const SingleProduct: React.FC<SingleProductProps> = ({ productInfo, addToCart })
             <img 
             src={productInfo.image} 
             alt={productInfo.name} 
-            className={` 
+            className={`
               ${ productInfo.name === 'Puma King' ? 'h-full' : '' }
               ${ productInfo.name === 'Total 90' ? 'h-fit' : '' }
               ${ productInfo.name === 'Predator-red' ? 'w-fit left-[70%]' : '' }
-
-              ${CSSClasses.img}`}
+              ${CSSClasses.img}
+              `}
             ></img>
           
         </div>
@@ -69,5 +67,3 @@ const SingleProduct: React.FC<SingleProductProps> = ({ productInfo, addToCart })
 }
 
 export default SingleProduct
-
-// ${isAnimating ? 'sendtocart' : ''}

@@ -136,14 +136,14 @@
             },
             {
                 "name": "Finale Madrid",
-                "image": "src/assets/imgs/finale-madrid.png",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/finale-madrid.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2019,
                 "cost": 59
             },
             {
                 "name": "Finale Istanbul",
-                "image": "src/assets/imgs/istanbul-finale.png",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/istanbul-finale.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2023,
                 "cost": 59
@@ -163,21 +163,21 @@
             },
             {
                 "name": "T90 Aerow 1",
-                "image": "src/assets/imgs/t90-white.png",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/t90-white.png?raw=true",  
                 "brand": "Nike",
                 "year": 2005,
                 "cost": 39
             },
             {
                 "name": "T90 Aerow 2",
-                "image": "src/assets/imgs/t90-yellow.png",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/t90-yellow.png?raw=true",  
                 "brand": "Nike",
                 "year": 2005,
                 "cost": 49
             },
             {
                 "name": "Hi-Vis",
-                "image": "src/assets/imgs/hi-vis.png",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/hi-vis.png?raw=true",  
                 "brand": "Puma",
                 "year": 2025,
                 "cost": 49
