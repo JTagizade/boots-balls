@@ -36,18 +36,22 @@ const SingleProduct: React.FC<SingleProductProps> = ({ productInfo, addToCart })
     <div className="w-[300px] h-[400px] rounded-2xl bg-blue-500 relative group product-bg-img">
         {/* <div ref={animatedElementRef} className='addToCartAnimation'></div>  */}
         <div className="h-[80%] px-5 pb-3 flex flex-col relative transform-style-preserve-3d">
-            <span className="text-4xl leading-20 italic opacity-25 montserrat group-hover:opacity-100 transition-all duration-800">{productInfo.name}</span>
+            <span className="text-3xl leading-20 italic opacity-25 montserrat group-hover:opacity-100 transition-all duration-800">{productInfo.name}</span>
             <span className="text-2xl leading-10 mt-16 opacity-80 italic montserrat">{productInfo.year}</span>
             <span className="text-3xl leading-10 opacity-60 italic montserrat">{productInfo.brand}</span>
             <span className="bg-black text-[#fff] font-bold montserrat mt-auto ml-auto mr-[-20px] py-1.5 px-4 rounded-s-full">${productInfo.cost}</span>
             
-            <img src={productInfo.image} alt={productInfo.name} className={CSSClasses.img}></img>
-            {/* { productInfo.image ? (
-               <img src={productInfo.image} alt={productInfo.name} className={CSSClasses.img}></img>
-            ) : productInfo.localImg ? (
-              <img src={imagePath} className={CSSClasses.img}></img>
-              // <p>salam</p>
-            ) : "" } */}
+            <img 
+            src={productInfo.image} 
+            alt={productInfo.name} 
+            className={` 
+              ${ productInfo.name === 'Puma King' ? 'h-full' : '' }
+              ${ productInfo.name === 'Total 90' ? 'h-fit' : '' }
+              ${ productInfo.name === 'Predator-red' ? 'w-fit left-[70%]' : '' }
+
+              ${CSSClasses.img}`}
+            ></img>
+          
         </div>
         <button onClick={handleAddToCart} 
             className={` ${ !cartItems.includes(productInfo.name) ? 'addToCart cursor-pointer' : 'text-amber-200'} ${CSSClasses.addToCartBtn}`} 

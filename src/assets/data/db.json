@@ -61,7 +61,7 @@
         "products": [
             {
                 "name": "Terrestra",
-                "image": "",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/terrestra.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2000,
                 "cost": 55
@@ -88,16 +88,16 @@
         "products": [
             {
                 "name": "Puma King",
-                "image": "",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/puma-king.png?raw=true",  
                 "brand": "Puma",
                 "year": 1968,
                 "cost": 199
             },
             {
                 "name": "Total 90",
-                "image": "",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/t90-3.png?raw=true",  
                 "brand": "Nike",
-                "year": 200,
+                "year": 2000,
                 "cost": 109
             },
             {
@@ -122,28 +122,28 @@
         "products": [
             {
                 "name": "Finale 3",
-                "image": "",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/fianle-2003.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2003,
                 "cost": 29
             },
             {
                 "name": "Group Stage",
-                "image": "",  
+                "image": "https://github.com/JTagizade/boots-balls/blob/main/src/assets/imgs/cl-2018.png?raw=true",  
                 "brand": "Adidas",
                 "year": 2018,
                 "cost": 49
             },
             {
                 "name": "Finale Madrid",
-                "image": "",  
+                "image": "src/assets/imgs/finale-madrid.png",  
                 "brand": "Adidas",
                 "year": 2019,
                 "cost": 59
             },
             {
                 "name": "Finale Istanbul",
-                "image": "",  
+                "image": "src/assets/imgs/istanbul-finale.png",  
                 "brand": "Adidas",
                 "year": 2023,
                 "cost": 59
@@ -163,21 +163,21 @@
             },
             {
                 "name": "T90 Aerow 1",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.premierleague.com%2Fresources%2Fprod%2Fv6.116.2-5185%2Fi%2Fnike-ball-hub%2Fballs%2F5-alt.png&f=1&nofb=1&ipt=0197930870dfbcdbe5908df86c16f1c443569e74d70cb00aaad49c263b17ec48&ipo=images",  
+                "image": "src/assets/imgs/t90-white.png",  
                 "brand": "Nike",
                 "year": 2005,
                 "cost": 39
             },
             {
                 "name": "T90 Aerow 2",
-                "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.premierleague.com%2Fresources%2Fprod%2Fv6.116.2-5185%2Fi%2Fnike-ball-hub%2Fballs%2F5-alt.png&f=1&nofb=1&ipt=0197930870dfbcdbe5908df86c16f1c443569e74d70cb00aaad49c263b17ec48&ipo=images",  
+                "image": "src/assets/imgs/t90-yellow.png",  
                 "brand": "Nike",
                 "year": 2005,
                 "cost": 49
             },
             {
                 "name": "Hi-Vis",
-                "image": "",  
+                "image": "src/assets/imgs/hi-vis.png",  
                 "brand": "Puma",
                 "year": 2025,
                 "cost": 49
