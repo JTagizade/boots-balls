@@ -3,9 +3,6 @@ import { useSelector } from 'react-redux';
 // Interfaces
 import type { Product, CartState } from './Interfaces';
 // Images
-import PredatorBlue from '../assets/imgs/predator-blue.png'
-import PredatorRed from '../assets/imgs/predator1.png'
-import Roteiro from '../assets/imgs/roteiro.png'
 
 
 
@@ -25,7 +22,6 @@ const CSSClasses = {
 
 const SingleProduct: React.FC<SingleProductProps> = ({ productInfo, addToCart }) => {
 
-  const imagePath = {Roteiro}
 
   const cart = useSelector((state: {cart:CartState}) => state.cart.items);
   const cartItems = cart.map(product => product.name);

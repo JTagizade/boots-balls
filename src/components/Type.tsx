@@ -5,11 +5,11 @@ import { chooseTypes } from './Slices/CategoriesSlice';
 
 
 
-const Type = (props) => {
+const Type = (props: { children: string }) => {
 
 const dispatch = useDispatch();
 
-const chosenTypes = useSelector(state => state.categories.chosenTypes);
+const chosenTypes = useSelector((state: { categories: { chosenTypes: string[] } }) => state.categories.chosenTypes);
 
 const isSlected = chosenTypes.includes(props.children);
 

@@ -121,18 +121,18 @@
         "type": "football",
         "products": [
             {
-                "name": "Group Stage",
-                "image": "",  
-                "brand": "Adidas",
-                "year": 2018,
-                "cost": 49
-            },
-            {
                 "name": "Finale 3",
                 "image": "",  
                 "brand": "Adidas",
                 "year": 2003,
                 "cost": 29
+            },
+            {
+                "name": "Group Stage",
+                "image": "",  
+                "brand": "Adidas",
+                "year": 2018,
+                "cost": 49
             },
             {
                 "name": "Finale Madrid",

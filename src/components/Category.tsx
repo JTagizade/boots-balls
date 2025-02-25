@@ -5,11 +5,11 @@ import { selectCategories as selectCategoriesAction } from './Slices/CategoriesS
 
 
 
-const Category = (props) => {
+const Category = (props: { children: string }) => {
 
 const dispatch = useDispatch();
 
-const selectedCategories = useSelector(state => state.categories.selectedCategories);
+const selectedCategories = useSelector((state: { categories: { selectedCategories: string[] } }) => state.categories.selectedCategories);
 
 const isSlected = selectedCategories.includes(props.children);
 
